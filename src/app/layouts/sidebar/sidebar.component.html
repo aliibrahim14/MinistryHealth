@@ -1,0 +1,52 @@
+<aside [class.fixed-class]="status">
+    <div class="logo">
+        <img src="/assets/sidebar/logo.png" alt="" srcset="">
+    </div>
+    <div class="links">
+        <ul class="list-unstyled">
+            <li>
+                <a routerLink="/complains" routerLinkActive="active">
+                    <img src="/assets/sidebar/sad.svg" alt="" srcset="">
+                    <span>Complains</span>
+                </a>
+            </li>
+            <li>
+                <a routerLinkActive="active">
+                    <img src="/assets/sidebar/help.svg" alt="" srcset="">
+                    <span>Inquiries</span>
+                </a>
+            </li>
+            <li>
+                <a routerLinkActive="active">
+                    <img src="/assets/sidebar/stethoscope.svg" alt="" srcset="">
+                    <span>Consultation</span>
+                </a>
+            </li>
+            <li>
+                <a routerLinkActive="active">
+                    <img src="/assets/sidebar/light-bulb.svg" alt="" srcset="">
+                    <span>Suggestions</span>
+                </a>
+            </li>
+            <li>
+                <a routerLinkActive="active">
+                    <img src="/assets/sidebar/book.svg" alt="" srcset="">
+                    <span>Knowledge Base</span>
+                </a>
+            </li>
+            <li>
+                <a routerLinkActive="active">
+                    <img src="/assets/sidebar/users.svg" alt="" srcset="">
+                    <span>Users</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</aside>
+<div class="show">
+    <button id="show-menu" (click)="toglleMenu()">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+        </svg>
+    </button>
+</div>

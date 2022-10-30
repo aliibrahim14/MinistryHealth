@@ -1,0 +1,11 @@
+.page-layout {
+    @media (min-width: 800px) {
+        display: flex;
+    }
+    min-height: 100vh;
+    .page-content {
+        padding: 20px;
+        background: #EFEFEF;
+        width: 100%;
+    }
+}
